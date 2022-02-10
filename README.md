@@ -25,11 +25,11 @@ Open your terminal and follow the steps below.
 
 Download the launch agent:
 
-`curl https://raw.githubusercontent.com/ersiner/osx-env-sync/master/osx-env-sync.plist -o ~/Library/LaunchAgents/osx-env-sync.plist`
+`curl https://raw.githubusercontent.com/firzencode/osx-env-sync/master/osx-env-sync.plist -o ~/Library/LaunchAgents/osx-env-sync.plist`
 
 Download the shell script:
 
-`curl https://raw.githubusercontent.com/ersiner/osx-env-sync/master/osx-env-sync.sh -o ~/.osx-env-sync.sh`
+`curl https://raw.githubusercontent.com/firzencode/osx-env-sync/master/osx-env-sync.sh -o ~/.osx-env-sync.sh`
 
 Make sure the shell script is executable:
 
@@ -55,7 +55,7 @@ In order to reload your environment variables without going through the logout/l
 
 If you want to automate this two step process with a script, download and make it executable (assuming you have a `~/bin` directory and its on your `$PATH` as in the example above):
 
-`curl https://raw.githubusercontent.com/ersiner/osx-env-sync/master/osx-env-sync-now -o ~/bin/osx-env-sync-now`
+`curl https://raw.githubusercontent.com/firzencode/osx-env-sync/master/osx-env-sync-now -o ~/bin/osx-env-sync-now`
 
 `chmod +x ~/bin/osx-env-sync-now`
 
